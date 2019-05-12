@@ -1,0 +1,403 @@
+* {
+    outline: 1px solid none;
+}
+
+body {
+    font-size: 14px;
+    font-family: Verdana, sans-serif;
+    color: #000000;
+    background-color: #222222;
+}
+
+h1 {
+    font-size: 45px;
+    font-family: Courier New, bold, monospace;
+    color: #000000;
+}
+
+h2 {
+    font-size: 24px;
+    font-family: Courier New, monospace;
+    color: #000000;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    width: 1040px;
+    margin-left: 80px;
+    margin-top: 50px;
+    background-color: #222222;
+}
+
+.menu-1 {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    width: 720px;
+    margin-left: 60px;
+
+    margin-right: 40px;
+
+    font-size: 14px;
+    color: #d4d4d4;
+    background-color: #222222;
+}
+
+.menu-1 li {
+    color: #ffffff;
+}
+
+.menu-1 a {
+    display: block;
+    margin-right: 40px;
+
+    font-size: 14px;
+    text-decoration: none;
+    color: #d4d4d4;
+}
+
+.menu-1 a:hover {
+    color: white;
+}
+
+.menu-1 a:active {
+    color: #ccc;
+}
+
+.menu-2-1 h1 {
+    color: #ffffff;
+}
+
+.menu-2-1 p {
+    color: #ffffff;
+}
+
+.btn-y {
+    position: relative;
+
+    display: inline-block;
+    width: 140px;
+    margin-left: 120px;
+
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 50px;
+    text-decoration: none;
+    vertical-align: top;
+    color: #222222;
+
+    cursor: pointer;
+    border: none;
+    border-radius: 50px;
+}
+
+.btn-y::after {
+    content: "";
+
+    position: absolute;
+    right: 10px;
+    top: 17px;
+
+    width: 19px;
+    height: 16px;
+
+    background-image: url(../img/right-arrow-dark.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+.btn-y {
+    background-color: #feca30;
+}
+
+
+.icon {
+    width: 18px;
+    height: 18px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.logo {
+    width: 60px;
+    margin-top: 10px;
+    background-color: #222222;
+}
+
+.menu-2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 1120px;
+    background-color: #222222;
+
+}
+
+
+.menu-2-1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 440px;
+    background-color: #222222;
+    margin-left: 80px;
+
+
+}
+
+.menu-2-1 p {
+    padding-left: 120px;
+}
+
+.menu-2-1 h1 {
+    padding-left: 120px;
+}
+
+.menu-2-1 a {
+    padding-left: 120px;
+}
+
+.menu-2-2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 440px;
+    margin-left: 80px;
+    background-color: #222222;
+}
+
+.advantages {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 1120px;
+    background-color: #222222;
+}
+
+
+.advantages-icon {
+    display: flex;
+    flex-wrap: wrap;
+    width: 180px;
+    flex-direction: row;
+    margin-left: 80px;
+    margin-top: 90px;
+    margin-bottom: 70px;
+
+
+    background-color: #222222;
+}
+
+.advantages-icon img {
+    padding-bottom: 30px;
+}
+
+.advantages-icon p {
+    color: #ffffff;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 1120px;
+    padding-bottom: 80px;
+    background-color: #ffffff;
+}
+
+.content-1 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 440px;
+    flex-direction: row;
+    margin-left: 80px;
+    margin-top: 80px;
+    background-color: #ffffff;
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 1120px;
+    background-color: #f0f0f0;
+    padding-bottom: 80px;
+    padding-top: 50px;
+}
+
+
+
+.vacation-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.vacation-form p {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 8px;
+}
+
+.vacation-form .form-1-2 {
+    width: 215px;
+    margin-bottom: 20px;
+}
+
+.vacation-form input[type="text"],
+.vacation-form input[type="tel"] {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px;
+
+    border: 0;
+}
+
+.vacation-form .btn-g {
+    margin-top: 30px;
+    text-align: left;
+}
+
+
+.form-1 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 440px;
+    flex-direction: row;
+    margin-left: 80px;
+    background-color: #f0f0f0;
+    padding-bottom: 80px;
+    padding-top: 50px;
+}
+
+.btn-g {
+    position: relative;
+
+    display: inline-block;
+    width: 140px;
+    margin-left: 0px;
+
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 50px;
+    text-decoration: none;
+    vertical-align: top;
+    color: #ffffff;
+
+    cursor: pointer;
+    border: none;
+    border-radius: 50px;
+    background-color: #222222;
+
+
+}
+
+.btn-g::after {
+    content: "";
+
+    position: absolute;
+    right: 10px;
+    top: 17px;
+
+    width: 19px;
+    height: 16px;
+
+    background-image: url(../img/right-arrow-white.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 1120px;
+    background-color: #222222;
+    margin-top: 30px;
+    padding-bottom: 50px;
+}
+
+footer p {
+    color: #ffffff;
+}
+
+.footer-1 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 180px;
+    flex-direction: row;
+    margin-left: 80px;
+    background-color: #222222;
+    margin-top: 30px;
+    padding-bottom: 50px;
+}
+
+.footer-1 img {
+    width: 60px;
+    padding-bottom: 100px;
+}
+
+.table {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 1120px;
+    background-color: #222222;
+    margin-top: 80px;
+    padding-bottom: 80px;
+}
+
+.table p {
+    color: #ffffff;
+}
+
+.table h2 {
+    color: #feca30;
+}
+
+
+.table-1 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 440px;
+    flex-direction: row;
+    margin-left: 80px;
+    background-color: #222222;
+
+
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    color: white;
+    background-color: #222222;
+    text-align: left;
+
+}
+
+td {
+    width: 180px;
+    padding: 15px;
+}
+
+th {
+    width: 180px;
+    padding: 15px;
+    border-bottom: 1px solid #555555;
+}
+
+.footer-1 li {
+    display: block;
+    padding-top: 15px;
+    font-size: 14px;
+    color: white;
+}
+
+.footer-1 a {
+    padding-top: 15px;
+    font-size: 14px;
+    color: #888888;
+    text-decoration: none;
+
+}
